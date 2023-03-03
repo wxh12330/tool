@@ -1,0 +1,10 @@
+pip download paramiko -d ./ 下载第三方库到本地
+
+grep -nr "123" / 查找字符串
+
+
+pip download pycryptodome -d ./ -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+
+
+python打包生成exe文件:
+	pyinstaller --clean --win-private-assemblies -F -w -i 2.ico zhongqiu.py
