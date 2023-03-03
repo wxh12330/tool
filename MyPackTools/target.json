@@ -1,0 +1,10 @@
+{
+  "TARGET.ELF": "wtest",
+  "TARGET.SO": "wtest.so",
+  "TARGET.O": [],
+  "TARGET.PYX": [],
+  "TARGET.PYX -> TARGET.C": {
+    "wtest.py": "main.c"
+  },
+  "TARGET.C": []
+}
