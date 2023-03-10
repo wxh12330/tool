@@ -8,3 +8,16 @@ pip download pycryptodome -d ./ -i http://pypi.douban.com/simple/ --trusted-host
 
 python打包生成exe文件:
 	pyinstaller --clean --win-private-assemblies -F -w -i 2.ico zhongqiu.py
+
+创建ftp: useradd -m -d /home/test -s /bin/sh -g root test
+        passwd test
+        修改/home/test的访问权限 chmod 775 /home
+
+创建sftp: useradd -d /home/sftp -s /sbin/nologin sftp
+         passwd sftp
+         chmod 775 /home/sftp
+         vim /ect/ssh/sshd_config
+            注释: Subsystem sftp /usr/libexec/openssh/sftp-server
+            添加: Subsystem sftp internal-sftp
+                  Match User sftp
+         service sshd restart
