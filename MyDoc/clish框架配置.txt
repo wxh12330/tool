@@ -1,7 +1,6 @@
 1. clish源码下载地址: git clone https://github.com/JackieXie168/clish.git
 2. cd clish
 3. ./configure
-
 4. make
 5. make install
 6. 在源码目录下执行: CLISH_PATH=xml-examples/. bin/clish
