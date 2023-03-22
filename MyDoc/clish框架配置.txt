@@ -4,3 +4,4 @@
 4. make
 5. make install
 6. 在源码目录下执行: CLISH_PATH=xml-examples/. bin/clish
+   或CLISH_PATH=/home/admin/wxh/clish_/clish/xml-examples(xml文件所在目录) /home/admin/wxh/clish_/clish/bin/clish(clish可执行文件)
