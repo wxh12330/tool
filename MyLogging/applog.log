@@ -16,3 +16,27 @@ Traceback (most recent call last):
   File "D:/github工具/MyLogging/my_logging.py", line 15, in <module>
     int(a)
 NameError: name 'a' is not defined
+2023-09-13 16:42:05|   DEBUG|my_logging.py[:12]|This is applog, debug|19140
+2023-09-13 16:42:05|   ERROR|my_logging.py[:17]|name 'a' is not defined|19140
+Traceback (most recent call last):
+  File "D:/github工具/MyLogging/my_logging.py", line 15, in <module>
+    int(a)
+NameError: name 'a' is not defined
+2023-09-13 16:42:37|   DEBUG|my_logging.py[:12]|This is applog, debug|applog
+2023-09-13 16:42:37|   ERROR|my_logging.py[:17]|name 'a' is not defined|applog
+Traceback (most recent call last):
+  File "D:/github工具/MyLogging/my_logging.py", line 15, in <module>
+    int(a)
+NameError: name 'a' is not defined
+2023-09-13 16:44:44|   DEBUG|my_logging.py[:12]|This is applog, debug|applog|my_logging
+2023-09-13 16:44:44|   ERROR|my_logging.py[:17]|name 'a' is not defined|applog|my_logging
+Traceback (most recent call last):
+  File "D:/github工具/MyLogging/my_logging.py", line 15, in <module>
+    int(a)
+NameError: name 'a' is not defined
+2023-09-13 16:45:18|   DEBUG|my_logging.py[:12]|This is applog, debug|applog|my_logging|D:/github工具/MyLogging/my_logging.py
+2023-09-13 16:45:18|   ERROR|my_logging.py[:17]|name 'a' is not defined|applog|my_logging|D:/github工具/MyLogging/my_logging.py
+Traceback (most recent call last):
+  File "D:/github工具/MyLogging/my_logging.py", line 15, in <module>
+    int(a)
+NameError: name 'a' is not defined
