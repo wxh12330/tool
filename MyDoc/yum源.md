@@ -53,3 +53,6 @@ python
 
 gdb显示字符串:
 set print elements 0
+
+
+yum info 可执行文件: 查询当前可执行文件的信息
